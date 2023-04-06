@@ -35,7 +35,7 @@ No desafio tomei como liberdade utilizar uma API do [Open Exchanges Rates](https
 
 ### Como os usuários podem utilizá-lo
 
-Baixar o executável disponível na pasta /bin e executar. Certifique-se de estar com o java instalado no seu computador. 
+Baixe [aqui](https://github.com/jpalvesloiola/conversor-de-moedas/blob/main/bin/conversor.jar) e é só executar. Certifique-se de estar com o java instalado no seu computador. 
 
 ### Autores do projeto.
 
