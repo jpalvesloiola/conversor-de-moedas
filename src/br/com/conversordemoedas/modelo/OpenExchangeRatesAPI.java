@@ -1,4 +1,4 @@
-package br.com.conversordemoedas;
+package br.com.conversordemoedas.modelo;
 
 /*
  * To use the Open Exchange Rates API in your Java program, you will need to send an HTTP request to the API endpoint and parse the response to get the exchange rate data. Here is an example of how you can do this using the java.net package:
