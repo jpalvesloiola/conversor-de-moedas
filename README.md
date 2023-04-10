@@ -27,11 +27,11 @@ Como desafio extra incentivamos vocês a deixar fluir sua criatividade, se posso
 
  - Modelo Desktop em Java;
  - Converte o Dólar para qualquer moeda disponível no mundo;
- - Conversão em Tempo Real;
+ - Conversão em Tempo Real;    
 
 ### Desafios
 
-No desafio tomei como liberdade utilizar uma API do [Open Exchanges Rates](https://openexchangerates.org/). Tive algumas limitações para aderir a API ao obter a grande vantagem de obter em tempo real dados de taxa de câmbio de conversão de moeda. A principal limitação, é a possibilidade de trocar a moeda de base para fornecer a taxa de câmbio. Isso não me possibilitou a implementação da conversão do Real para Dólar e somente de Dólar para outras moedas.
+No desafio tomei como liberdade utilizar uma API do [Open Exchanges Rates](https://openexchangerates.org/). Tive algumas limitações ao aderir a API, apesar da grande vantagem de obter, em tempo real, dados de taxa de câmbio de conversão de moeda. A principal limitação, é a possibilidade de trocar a moeda de base para fornecer a taxa de câmbio. Isso não me possibilitou a implementação da conversão do Real para Dólar e somente de Dólar para outras moedas.
 
 ### Como os usuários podem utilizá-lo
 
