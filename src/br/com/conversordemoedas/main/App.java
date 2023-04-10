@@ -15,7 +15,7 @@ public class App {
 		while (option == second.ordinal()) {
 			option = first.ordinal();
 			Object[] possibleValues = { "Conversosr de moedas", "Conversor de temperatura" };
-			Object selectedValue = JOptionPane.showInputDialog(null, "Choose one", "Input",
+			Object selectedValue = JOptionPane.showInputDialog(null, "Escolha uma opção", "Menu",
 					JOptionPane.INFORMATION_MESSAGE, null, possibleValues, possibleValues[0]);
 			if (selectedValue == null) {
 				option = third.ordinal();
@@ -25,7 +25,7 @@ public class App {
 					var inputValue = JOptionPane.showInputDialog("Insira um valor:");
 					if (inputValue != null) {
 						while (!validatesCurrency(inputValue)) {
-							JOptionPane.showMessageDialog(null, "Valor inválido!", "information",
+							JOptionPane.showMessageDialog(null, "Valor inválido!", "Aviso",
 									JOptionPane.INFORMATION_MESSAGE);
 							inputValue = JOptionPane.showInputDialog("Insira um valor:");
 						}
@@ -42,11 +42,11 @@ public class App {
 								"SOS", "SRD", "SSP", "STD", "SYP", "SZL", "THB", "TJS", "TMT", "TND", "TOP", "TRY", "TTD",
 								"TVD", "TWD", "TZS", "UAH", "UGX", "USD", "UYU", "UZS", "VND", "VUV", "WST", "XAF", "XCD",
 								"XOF", "XPF", "YER", "ZAR", "ZMW", "ZWL" };
-						Object selectedCurrency = JOptionPane.showInputDialog(null, "Ecolha uma opção", "Input",
+						Object selectedCurrency = JOptionPane.showInputDialog(null, "Ecolha uma opção", "Moedas ao redor do mundo",
 								JOptionPane.INFORMATION_MESSAGE, null, possibleCurrencies, possibleCurrencies[0]);
 						String result = currencyConvertes((String) selectedCurrency, (String) inputValue);
 
-						JOptionPane.showMessageDialog(null, "O valor da conversão é de $ " + result, "information",
+						JOptionPane.showMessageDialog(null, "O valor da conversão é de $ " + result, "Resultado",
 								JOptionPane.INFORMATION_MESSAGE);
 						option = JOptionPane.showConfirmDialog(null, "Deseja continuar?", "Selecione uma opção",
 								JOptionPane.YES_NO_CANCEL_OPTION);
