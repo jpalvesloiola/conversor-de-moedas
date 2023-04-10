@@ -27,7 +27,7 @@ Como desafio extra incentivamos vocês a deixar fluir sua criatividade, se posso
 
  - Modelo Desktop em Java;
  - Converte o Dólar para qualquer moeda disponível no mundo;
- - Conversção em Tempo Real;
+ - Conversão em Tempo Real;
 
 ### Desafios
 
